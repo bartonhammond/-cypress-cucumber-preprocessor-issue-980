@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "runFeatures": "node_modules\\.bin\\cypress run --headed",
+    "runIgnoreOnly": "node_modules\\.bin\\cypress run --env tags=@ignore --headed",
+    "runFeaturesNotIgnore": "node_modules\\.bin\\cypress run --env tags='not @ignore'--headed"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "cypress": "latest"
+  }
+}
