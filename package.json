@@ -2,7 +2,8 @@
   "scripts": {
     "runFeatures": "node_modules\\.bin\\cypress run --headed",
     "runIgnoreOnly": "node_modules\\.bin\\cypress run --env tags=@ignore --headed",
-    "runFeaturesNotIgnore": "node_modules\\.bin\\cypress run --env tags='not @ignore' --headed"
+    "runFeaturesNotIgnore": "node_modules\\.bin\\cypress run --env tags=\"not @ignore\" --headed",
+    "openFeaturesNotIgnore": "node_modules\\.bin\\cypress open --env tags=\"not @ignore\""
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "latest",
