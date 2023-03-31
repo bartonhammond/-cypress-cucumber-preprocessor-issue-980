@@ -21,4 +21,7 @@ This should run all the features and does
 This should only run the feature tagged with `@ignore` and does
 
 *  `npm run runFeaturesNotIgnore` 
-This should run all Features but not the ignore.  This fails - none of the Features are run
+This should run all Features but not the ignore and does
+
+### The way to invoke
+`"node_modules\\.bin\\cypress open --env tags=\"not @ignore\""`
